@@ -5,7 +5,7 @@ uniformDependencySettings
 libraryDependencies :=
   depend.hadoop() ++ depend.scalaz() ++ depend.testing() ++
   Seq(
-    "org.apache.avro" % "avro-mapred" % "1.7.4"
+    "org.apache.avro" % "avro-mapred" % "1.7.6"
   )
 
 publishArtifact in Test := true
